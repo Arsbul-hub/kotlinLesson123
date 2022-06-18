@@ -14,14 +14,11 @@
         android:theme="@style/Theme.Mp"
         tools:targetApi="31">
         <activity
-            android:name=".thirdActivity"
+            android:name=".ThirdActivity"
             android:exported="false" />
         <activity
-            android:name=".secondActivity"
+            android:name=".SecondActivity"
             android:exported="false" />
-        <activity
-            android:name=".second"
-            android:exported="true" />
         <activity
             android:name=".FirstActivity"
             android:exported="true">

@@ -5,7 +5,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 
 
-class navigation {
+class NavigationUtils {
     fun j(this_screen: AppCompatActivity, next_screen: AppCompatActivity){
         print(123)
         val intent = Intent(this_screen, next_screen::class.java)
